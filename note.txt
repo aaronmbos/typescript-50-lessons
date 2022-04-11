@@ -1,0 +1,14 @@
+Lesson 11: Typing Objects
+ `any` is carefree and careless
+ `unknown` is cautious and cause for concern
+ - Composite Types
+  objects are composite types
+  TypeScript is a structural type system
+   The structure contract is fulfilled as long as all properties are present for a given type
+  All we need to care about is that all the properties needed are available
+
+Lesson 12: Object Type Tool Belt
+ `typeof` returns the shape of any object at runtime
+ Optional properties are defined with a `?` after the property name
+
+Lesson 13:  Typing Classes
