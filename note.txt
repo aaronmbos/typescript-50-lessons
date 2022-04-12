@@ -11,4 +11,22 @@ Lesson 12: Object Type Tool Belt
  `typeof` returns the shape of any object at runtime
  Optional properties are defined with a `?` after the property name
 
-Lesson 13:  Typing Classes
+Lesson 13: Typing Classes
+ TypeScript erases to JavaScript after the compiler runs
+  Compiles down to various versions of ECMAScript
+ JavaScript classes work well with TypeScript's type system
+ TypeScript is more concerned with the shape of objects instead of the class itself
+ Classes are composed of two things
+  1. Constructor function
+  2. Prototype
+ In TypeScript **structure** is important
+  Names are sound and smoke
+ Classes contribute to value-creation and type-creation
+
+Lesson 14: Interfaces
+ Historically interfaces define the blueprint for a class
+ If using classes, both types and interfaces can be implemented
+ The biggest difference between types and interfaces is **declaration merging**
+  For interfaces, declaration merging means we can define the same interface with different properties and they will be merged together
+  This is useful for extending objects that we don't own, but use in our code
+
