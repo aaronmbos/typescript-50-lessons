@@ -30,3 +30,26 @@ Lesson 14: Interfaces
   For interfaces, declaration merging means we can define the same interface with different properties and they will be merged together
   This is useful for extending objects that we don't own, but use in our code
 
+Chapter 3 Functions
+
+Lesson 15: A Search Function
+ Function params are type `any` by default
+ Often time function results can be inferred, but explicitly typing them is helpful
+
+Lesson 16: Callbacks
+ Complex objects can be defined that contain functions
+ Functions are a first-class citizen in JavaScript and can be used as values
+  Pass functions to functions as arguments (aka callback function)
+  Callbacks are pluggable functions
+ TypeScript's structural type system applies to functions as well
+  The structure doesn't rely on shape, but by order of arguments and their type
+
+Lesson 17: Substitutability
+ TypeScript requires function callers to provide all necessary arguments
+ Substitutability comes into play when it is OK to substitute one function for another
+  The params don't have to be the same if it won't cause breaking changes
+ In JS, all functions have a return value. If the function doesn't return a value explicitly
+ the value is undefined
+ In TS every function has a return type and if we don't explicitly type or infer, the return type is 
+ void by default
+ In terms of function return types, anything can be substituted for void
