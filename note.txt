@@ -53,3 +53,26 @@ Lesson 17: Substitutability
  In TS every function has a return type and if we don't explicitly type or infer, the return type is 
  void by default
  In terms of function return types, anything can be substituted for void
+
+Lesson 18: This and That
+ TypeScript allows us to narrow down types for `this` with instanceof to provide safer guard rails
+ for our code
+ In TypeScript we are allowed to type `this` in a function's parameter `(this: HTMLElement)`
+  The parameter gets erased when the TS is compiled down to JavaScript
+ TS does its best to inject itself when more typing is needed to improve safety
+
+Lesson 19: The Function Type Tool Belt
+ Tagged Template Literals
+  The tag for a tagged template literal is a function that has a defined set of params
+   First param is a TemplateStringsArray
+   Second is a string array with the actual expressions
+ Rest Parameters
+  Rest params are always optional
+  Allow for n amount of params to be included in the function invocation
+ Asynchronous Functions
+  async functions return promises and their results can be awaited
+  `const results = await search('Ember');`
+  Functions can be declared as async ie `async function search() {}`
+  Return values are automatically wrapped in a promise return type
+
+Lesson 20: Function Overloading

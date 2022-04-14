@@ -37,3 +37,25 @@ const query: Query = {
         return query;
     },
 };
+
+type SearchFn = (searchTerm: string) => Promise<void>;
+
+function displaySearch(
+    inputId: "string",
+    outputId: "string",
+    search: SearchFn
+): void {
+    document.getElementById(inputId)?.addEventListener("change", function () {
+        this.parentElement?.classList.add("active");
+
+        if (this instanceof HTMLInputElement) {
+            const searchTerm = this.value;
+
+            search(searchTerm).then((results) => {});
+        }
+    });
+}
+
+function inputChangeHandler(this: HTMLElement) {
+    this.parentElement?.classList.add("active");
+}
