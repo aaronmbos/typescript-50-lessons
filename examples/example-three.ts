@@ -4,7 +4,7 @@ type Result = {
     abstract: string;
 };
 
-function search(
+function searchOriginal(
     query: string,
     callback: (results: Result[]) => void,
     tags?: string[]
@@ -58,4 +58,14 @@ function displaySearch(
 
 function inputChangeHandler(this: HTMLElement) {
     this.parentElement?.classList.add("active");
+}
+
+//function search(term: string, tags?: string[]): Promise<Result[]>
+function search(
+    term: string,
+    callback: (results: Result[]) => void,
+    tags?: string[]
+): void;
+function search(term: string, p2?: unknown, p3?: string[]) {
+    // implementation
 }

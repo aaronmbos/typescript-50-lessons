@@ -76,3 +76,9 @@ Lesson 19: The Function Type Tool Belt
   Return values are automatically wrapped in a promise return type
 
 Lesson 20: Function Overloading
+ In TS function overloads are defined on top of the actual implementation
+ Overloading in TS can be complicated and should be avoided when possible
+ Off the bat, I'm personally not a fan of overloading in TS, but maybe I need to understand it 
+ better
+
+Lesson 21: Generator Functions
