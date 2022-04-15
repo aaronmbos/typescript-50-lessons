@@ -82,3 +82,21 @@ Lesson 20: Function Overloading
  better
 
 Lesson 21: Generator Functions
+ In JS generator functions can be exited and later reentered
+  Idea being that generators generate a value over the course of time
+ Key topics for working with generators
+  1. An asterisk around the generator indicating that the function is not ordinary
+  2. The generator contains the keyword yield. Passes results to caller, but allows for
+  re-entrance on an additional iteration
+
+Chapter 4: Union and Intersection Types
+
+Lesson 22: Modeling Data
+ Intersection Types are defined with `&` and can be read "and"
+ Combine props from Type A with another Type B
+  Similar to extending a class
+ The result of intersection is a new type with props of A & B
+
+ Union types are defined with `|` and can be read as "or"
+  The type resulting from a union type tries to encompass all possible properties 
+  from the types set in union
