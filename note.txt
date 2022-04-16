@@ -100,3 +100,17 @@ Lesson 22: Modeling Data
  Union types are defined with `|` and can be read as "or"
   The type resulting from a union type tries to encompass all possible properties 
   from the types set in union
+
+Lesson 23: Moving in the Type Space
+ Set Theory
+  `any` and `unknown` are known as top types and contain the set of all available values
+  Primitive types are a level below top types and include boolean, string, or number
+  Value types include each value of a particular set ie `let conf = 'conference'`
+
+Lesson 24: Working with Value Types
+ Discriminated unions help the compiler understand even more about our code!!
+  Very helpful with control flow
+ Applying const to objects with FIXATE their value types, effectively creating a value type of out an entire object
+
+Lesson 25: Dynamic Unions
+ 
