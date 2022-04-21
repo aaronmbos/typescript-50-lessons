@@ -113,4 +113,24 @@ Lesson 24: Working with Value Types
  Applying const to objects with FIXATE their value types, effectively creating a value type of out an entire object
 
 Lesson 25: Dynamic Unions
- 
+Lesson 26: Keys and Type Predicate
+ We can use `keyof` to get a union of all of a type's key 
+ Type predicates are another form of narrowing that help the compiler determine what type is expected
+ Type predicates work with functions that return booleans
+
+Lesson 27: Down at the Bottom: never
+ `never` is at the very bottom of the type hierarchy
+ Basically behaves like the opposite of `any`
+ Cannot assign a value to never
+ Never provides a safeguard for scenarios that could occur, but should never occur
+
+Lesson 28: undefined and null
+ Both denote the absence of a value and both are bottom values
+ undefined: variable has been declared, but no value assigned
+ null: is an empty value
+ strictNullChecks (part of strict mode) can be set in tsconfig
+  All nullish values are excluded from types
+
+Chapter 5: Generics
+
+Lesson 29: I don't know what I want, but I know how to get it
