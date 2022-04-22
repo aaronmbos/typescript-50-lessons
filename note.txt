@@ -134,3 +134,17 @@ Lesson 28: undefined and null
 Chapter 5: Generics
 
 Lesson 29: I don't know what I want, but I know how to get it
+ If we do something in TypeScript that we wouldn't do like that in JavaScript, we should rethink
+ Instead of working with a type, we work with a parameter that is substituted for a type
+ TypeScript is capable of inferring the type to substitute based on argument type
+ Many of JavaScript's built-in APIs and browser APIs use generics
+
+Lesson 30: Generic Constraints
+ By default generics cover the entire set of types: `any`
+ To constrain a generic type we use the `extends` keyword
+
+Lesson 31: Working with Keys
+ We can use keyof with generic type params as well to make sure keys of the generic type are only
+ allowed to be passed to the function
+
+Lesson 32: Generic Mapped Types
