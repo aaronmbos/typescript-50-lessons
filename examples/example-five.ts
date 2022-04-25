@@ -24,3 +24,4 @@ async function loadFile<Formats extends UrlObject, Key extends keyof Formats>(
     loaded: data.status === 200,
   };
 }
+

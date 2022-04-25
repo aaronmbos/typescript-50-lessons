@@ -148,3 +148,21 @@ Lesson 31: Working with Keys
  allowed to be passed to the function
 
 Lesson 32: Generic Mapped Types
+ Pick is used to specificy keys to be selected from a type to create a new type
+ Record creates a dictionary like object
+  Comes in handy if we need to create an object type on the fly
+ With union types we only need fulfill the contract of one of the union constituent
+
+Lesson 33: Mapped Type Modifiers
+
+Lesson 34: Binding Generics
+ TypeScript is able to infer types effectively
+ We can use `as const` to protect an object from change and narrow the assignment down
+ Another option is to provide an explicit type annotation
+ Generic Type Binding
+  The process of substituting a concrete type for a generic type is called binding.
+
+ The spread operator creates a combination of two objects and the result is an intersection.
+ The intersection of two distinct value types always results in never.
+
+Lesson 35: Generic Type Defaults
