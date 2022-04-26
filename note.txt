@@ -166,3 +166,26 @@ Lesson 34: Binding Generics
  The intersection of two distinct value types always results in never.
 
 Lesson 35: Generic Type Defaults
+ We are able to specify default types for Generic type parameters
+
+Chapter 5 Recap
+ Generics help prepare for types we don't know up front which improves the robustness of our APIs
+  1. Generalized functions
+  2. We can constrain our generics to provide more context to the compiler
+
+Chapter 6 Conditional Types
+
+Lesson 36: If This, Then That
+ The syntax for conditional types is based on generics
+  `type Conditional<T> = T extends U ? A : B;`
+ Reads very similarly to a ternary statement
+ Conditional types also work well with the idea of having a type layer over JavaScript
+ They work only at the type layer and are easily erased
+
+Lesson 37: Combining Function Overloads and Conditional Types
+Lesson 38: Distributive Conditionals
+ A conditional type of a union type is like a union of conditional types
+ Conditional types work through distribution and will return expected results
+
+Lesson 39: Filtering with never
+Lesson 40: Composing Helper Types
