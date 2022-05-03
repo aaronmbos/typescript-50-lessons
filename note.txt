@@ -188,4 +188,25 @@ Lesson 38: Distributive Conditionals
  Conditional types work through distribution and will return expected results
 
 Lesson 39: Filtering with never
-Lesson 40: Composing Helper Types
+Lesson 40: Composing Helper
+ Exclude is a utility type built into TypeScript that will exclude types from A which are in B.
+ Omit is a built in utility type that combines the functionality of Pick and Exclude
+ Generic types behave like functions, they have parameters and an output, and are composable.
+
+Lesson 41: The infer Keyword
+ TypeScript can infer types through assignment and extract types from a more complex generic type
+ `ReturnType<T>` is a helper type that will return the return type of a function `T` passed to it
+ infer allows for powerful flexibility to get types even when they may not be completely solidfied
+ TypeScript consists of many helper types that utilize inference
+
+Lesson 42: Working with null
+ Option 1 - account for null in the arguments/return type
+ Consider nullish values early on to keep core of application null free
+
+Chapter 7 Thinking In Types
+
+Lesson 43: Promisify
+ Variadic tuple type has the same properties as a tuple except the shape is not yet known
+  A tuple type in TS is an array where the length of the array is defined and the type of each element is known
+
+Lesson 44: JSONify
