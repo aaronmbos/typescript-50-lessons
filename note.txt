@@ -210,3 +210,11 @@ Lesson 43: Promisify
   A tuple type in TS is an array where the length of the array is defined and the type of each element is known
 
 Lesson 44: JSONify
+ Utilizes a recursive type to "JSONify" an object based on generic type definition
+ This was demonstrated by Anders Hjelsberg in a talk
+
+Lesson 45: Service Definitions
+ Allow for dynamic message passing and handling via a service definition generic type
+
+Lesson 46: DOM JSX Enginer, Part 1
+ 
